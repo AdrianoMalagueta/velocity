@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url(imagens/fundo_page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.box_form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+  border: solid 1px transparent;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box_form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.box_form form input {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box_banner {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.box_banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.info_time,
+.box_percuso,
+.box_vel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .box_form {
+    width: 70%;
+    max-width: 500px;
+  }
+
+  .box_form form input {
+    height: 45px;
+  }
+}

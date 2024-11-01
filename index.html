@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css" type="text/css" media="screen">
+  <title>Velocity</title>
+</head>
+<body>
+
+  <div class="box_form">
+    <div class="box_banner">
+      <img src="imagens/banner_page.png">
+    </div>
+    <form id="calcForm">
+      <div class="info_time">
+        Tempo de Chegada em Velocidade Média:
+        <input type="text" id="time_med" name="time_med" readonly>
+      </div>
+      
+      <div class="box_percuso">
+        Informe o tamanho do percurso (Km):
+        <input type="text" id="percuso" name="percuso" placeholder="Ex.: 2.5">
+      </div>
+
+      <div class="box_vel"> 
+        Informe a Velocidade Pretendida (Km/h):
+        <input type="text" id="velocidade" name="velocidade" placeholder="Ex.: 45">
+      </div>
+
+      <div class="box_btn">
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Limpar">
+      </div>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
